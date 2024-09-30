@@ -7,11 +7,12 @@ import World18 from '../pages/World18';
 import World14 from '../pages/World14';
 import World10 from '../pages/World10';
 import World6 from '../pages/World6';
+import World from '../pages/World';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <World22 />,
+    element: <World />,
     errorElement: <ErrorPage />,
   },
   {
